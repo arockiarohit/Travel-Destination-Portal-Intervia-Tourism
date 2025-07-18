@@ -1,0 +1,250 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('images/AG1 (6).jpg'); /* Ensure the image exists in this path */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #3d3c3c;
+    line-height: 1.6;
+}
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background: rgb(9, 130, 200);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+  font-size: 2.2rem;
+  color: #464646;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0e0e0e;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  background-color: #10d831;
+  color: #f8fbfc;
+  transform: scale(1.05);
+}
+/* Parent dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Hide dropdown by default */
+.dropdown-content {
+  background-color: #0213106a;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  transform: scaleY(1);
+}
+
+
+
+
+
+/* Show dropdown on hover */
+.dropdown-content {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  max-height: 500px; /* enough height */
+}
+
+
+/* Style the dropdown links */
+.dropdown-content li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+  background-color: #0075aa;
+}
+
+/* Arrow icon style */
+.arrow-icon {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+    
+
+/* Gallery Section */
+
+.gallery-section {
+  padding: 40px 20px;
+  background-color: #ffffff00;
+}
+
+.gallery-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f0e0e;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 50px;
+  scroll-behavior: smooth;
+  
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 4px;
+}
+
+.scroll-container img {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  background-color: #000000;
+}
+
+.scroll-container img:hover {
+  transform: scale(1.05);
+}
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 40px 20px 20px;
+  font-family: 'Roboto', sans-serif;
+    
+}
+.footer-about p i {
+  margin-right: 5px;
+  color: #00aced;
+}
+.footer-about p {
+  margin: 5px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-about, .footer-links, .footer-social {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer p, .footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer-social a {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ccc;
+}
+.footer-social a:hover {
+  color: #00aced;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #010213;
+  padding-top: 15px;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  
+    }
+
+

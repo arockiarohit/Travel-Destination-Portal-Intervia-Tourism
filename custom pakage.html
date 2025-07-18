@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Packages - Tourism</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    /* Header Styling */
+    .header {
+        background: rgb(203, 204, 204); /* Slight transparency */
+        color: #141414;
+        padding: 20px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+        /* Navigation Styling */
+    .nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: #0e0e0e;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-weight: 500;
+    }
+
+    .nav a:hover {
+        background-color: #004d40;
+        color: #06fd3b;
+        transform: scale(1.05);
+    }
+    .package-section {
+      padding: 60px 20px;
+    }
+
+    .package-title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: #0077b6;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-top {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .price-tag {
+      color: #28a745;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+ <header class="header">
+        <div class="container">
+        <h1 class="logo">Intervia Tourism</h1>
+    
+        <nav class="nav">
+            <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+<section class="package-section">
+  <div class="container">
+    <h2 class="package-title">Custom Tour Packages</h2>
+    <div class="row g-4">
+
+      <!-- Card Template -->
+      <!-- Repeat for each country -->
+
+      <!-- 1 -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card">
+          <img src="custom img/1.jpeg" class="card-img-top" alt="Paris">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paris, France</h5>
+            <p class="card-text">Visit the romantic Eiffel Tower & explore French culture.</p>
+            <p class="price-tag">₹1,50,000</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card">
+          <img src="custom img/2.jpeg" class="card-img-top" alt="Rome">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rome, Italy</h5>
+            <p class="card-text">Explore the Colosseum and Roman history.</p>
+            <p class="price-tag">₹2,00,000</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card">
+          <img src="custom img/3.jpeg" class="card-img-top" alt="Japan">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tokyo, Japan</h5>
+            <p class="card-text">Experience Mount Fuji and vibrant Japanese culture.</p>
+            <p class="price-tag">₹2,50,000</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card">
+          <img src="custom img/4.jpeg" class="card-img-top" alt="USA">
+          <div class="card-body text-center">
+            <h5 class="card-title">New York, USA</h5>
+            <p class="card-text">Visit Times Square & Statue of Liberty.</p>
+            <p class="price-tag">₹3,00,000</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card">
+          <img src="custom img/5.jpeg" class="card-img-top" alt="London">
+          <div class="card-body text-center">
+            <h5 class="card-title">London, UK</h5>
+            <p class="card-text">Big Ben, Buckingham Palace & more.</p>
+            <p class="price-tag">₹2,80,000</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+<!-- 2 - Italy -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/6.jpeg" class="card-img-top" alt="Rome">
+    <div class="card-body text-center">
+      <h5 class="card-title">Rome, Italy</h5>
+      <p class="card-text">Explore the Colosseum & ruins.</p>
+      <p class="price-tag">₹2,00,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 3 - Japan -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/8.jpeg" class="card-img-top" alt="Tokyo">
+    <div class="card-body text-center">
+      <h5 class="card-title">Tokyo, Japan</h5>
+      <p class="card-text">Modern tech meets Mt. Fuji beauty.</p>
+      <p class="price-tag">₹2,50,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+<!-- 6 - Dubai -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/9.jpeg" class="card-img-top" alt="Dubai">
+    <div class="card-body text-center">
+      <h5 class="card-title">Dubai, UAE</h5>
+      <p class="card-text">Burj Khalifa, desert safari & luxury.</p>
+      <p class="price-tag">₹3,20,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 7 - Singapore -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/10.jpeg" class="card-img-top" alt="Singapore">
+    <div class="card-body text-center">
+      <h5 class="card-title">Singapore</h5>
+      <p class="card-text">Gardens by the Bay & Sentosa fun.</p>
+      <p class="price-tag">₹2,20,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 8 - Maldives -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/11.jpeg" class="card-img-top" alt="Maldives">
+    <div class="card-body text-center">
+      <h5 class="card-title">Maldives</h5>
+      <p class="card-text">Luxury water villas & crystal seas.</p>
+      <p class="price-tag">₹3,50,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 9 - Australia -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/12.jpeg" class="card-img-top" alt="Sydney">
+    <div class="card-body text-center">
+      <h5 class="card-title">Sydney, Australia</h5>
+      <p class="card-text">Opera House & Bondi beach fun.</p>
+      <p class="price-tag">₹4,00,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 10 - Bali -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/13.jpeg" class="card-img-top" alt="Bali">
+    <div class="card-body text-center">
+      <h5 class="card-title">Bali, Indonesia</h5>
+      <p class="card-text">Temples, beaches & jungle vibes.</p>
+      <p class="price-tag">₹1,80,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 11 - Cape Town -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/14.jpeg" class="card-img-top" alt="Cape Town">
+    <div class="card-body text-center">
+      <h5 class="card-title">Cape Town, SA</h5>
+      <p class="card-text">Mountains, ocean & wine country.</p>
+      <p class="price-tag">₹3,70,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 12 - Thailand -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/15.jpeg" class="card-img-top" alt="Thailand">
+    <div class="card-body text-center">
+      <h5 class="card-title">Phuket, Thailand</h5>
+      <p class="card-text">Islands, street food & culture.</p>
+      <p class="price-tag">₹1,20,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 13 - Canada -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/16.jpeg" class="card-img-top" alt="Canada">
+    <div class="card-body text-center">
+      <h5 class="card-title">Canada</h5>
+      <p class="card-text">Niagara Falls & Rockies tours.</p>
+      <p class="price-tag">₹4,50,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 14 - Brazil -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/17.jpeg" class="card-img-top" alt="Brazil">
+    <div class="card-body text-center">
+      <h5 class="card-title">Rio, Brazil</h5>
+      <p class="card-text">Carnival, beaches & Christ statue.</p>
+      <p class="price-tag">₹3,00,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 15 - Egypt -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/18.jpeg" class="card-img-top" alt="Egypt">
+    <div class="card-body text-center">
+      <h5 class="card-title">Cairo, Egypt</h5>
+      <p class="card-text">Pyramids of Giza & Nile cruise.</p>
+      <p class="price-tag">₹2,70,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 16 - Switzerland -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/19.jpeg" class="card-img-top" alt="Switzerland">
+    <div class="card-body text-center">
+      <h5 class="card-title">Swiss Alps</h5>
+      <p class="card-text">Snowy mountains & scenic trains.</p>
+      <p class="price-tag">₹5,00,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 17 - Russia -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/20.jpeg" class="card-img-top" alt="Russia">
+    <div class="card-body text-center">
+      <h5 class="card-title">Moscow, Russia</h5>
+      <p class="card-text">Kremlin, Red Square & culture.</p>
+      <p class="price-tag">₹3,60,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 18 - Kenya -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/19.jpeg" class="card-img-top" alt="Kenya">
+    <div class="card-body text-center">
+      <h5 class="card-title">Kenya</h5>
+      <p class="card-text">Wildlife safari in Maasai Mara.</p>
+      <p class="price-tag">₹2,40,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 19 - China -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/20.jpeg" class="card-img-top" alt="China">
+    <div class="card-body text-center">
+      <h5 class="card-title">Beijing, China</h5>
+      <p class="card-text">Great Wall & Forbidden City.</p>
+      <p class="price-tag">₹2,90,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- 20 - Germany -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/21.jpeg" class="card-img-top" alt="Germany">
+    <div class="card-body text-center">
+      <h5 class="card-title">Berlin, Germany</h5>
+      <p class="card-text">Castles, cities & Oktoberfest.</p>
+      <p class="price-tag">₹3,10,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+<!-- 20 - China -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/22.jpeg" class="card-img-top" alt="China">
+    <div class="card-body text-center">
+      <h5 class="card-title">China</h5>
+      <p class="card-text"> "The Long Dragon" 🐉</p>
+      <p class="price-tag">₹2,10,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+<!-- 20 -  -->
+<div class="col-md-4 col-lg-3">
+  <div class="card">
+    <img src="custom img/23.jpeg" class="card-img-top" alt="Budapest, Hungary">
+    <div class="card-body text-center">
+      <h5 class="card-title">Budapest, Hungary</h5>
+      <p class="card-text">Roman Catholic basilica, also hosts concerts and tourist visits</p>
+      <p class="price-tag">₹4,40,000</p>
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</div>
+
+      <!-- Add 15 More (Examples below) -->
+      <!-- Add rows for: Dubai, Singapore, Maldives, Sydney, Bali, Cape Town, Thailand, Canada, Brazil, Egypt, Switzerland, Russia, Kenya, China, Germany -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

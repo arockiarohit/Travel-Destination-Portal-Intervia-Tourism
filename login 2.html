@@ -1,0 +1,62 @@
+import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
+import './styles.css';
+
+const App = () => {
+  const [isLogin, setIsLogin] = useState(false);
+  const [showLoginForm, setShowLoginForm] = useState(false);
+  const [formData, setFormData] = useState({ username: '', email: '', password: '' });
+  const [loginData, setLoginData] = useState({ username: '', password: '' });
+
+  const handleRegister = () => {
+    if (formData.username && formData.email && formData.password) {
+      alert('Successfully Registered!');
+      setShowLoginForm(true);
+    } else {
+      alert('Please fill all fields!');
+    }
+  };
+
+  const handleLogin = () => {
+    if (loginData.username && loginData.password) {
+      alert('Login Successful!');
+      setIsLogin(true);
+    } else {
+      alert('Please enter username and password!');
+    }
+  };
+
+  if (isLogin) {
+    return (
+      <div className="container">
+        <h1>Welcome to the Index Page!</h1>
+      </div>
+    );
+  }
+
+  return (
+    <div className="container">
+      {!showLoginForm ? (
+        <div className="form-box">
+          <h2>Register</h2>
+          <input type="text" placeholder="Username" onChange={e => setFormData({ ...formData, username: e.target.value })} />
+          <input type="email" placeholder="Email" onChange={e => setFormData({ ...formData, email: e.target.value })} />
+          <input type="password" placeholder="Password" onChange={e => setFormData({ ...formData, password: e.target.value })} />
+          <button onClick={handleRegister}>Register</button>
+          <p>Already have an account? <span onClick={() => setShowLoginForm(true)}>Login</span></p>
+        </div>
+      ) : (
+        <div className="form-box">
+          <h2>Login</h2>
+          <input type="text" placeholder="Username" onChange={e => setLoginData({ ...loginData, username: e.target.value })} />
+          <input type="password" placeholder="Password" onChange={e => setLoginData({ ...loginData, password: e.target.value })} />
+          <button onClick={handleLogin}>Login</button>
+          <p>Don't have an account? <span onClick={() => setShowLoginForm(false)}>Register</span></p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);
