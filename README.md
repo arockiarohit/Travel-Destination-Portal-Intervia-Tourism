@@ -1,24 +1,24 @@
-# 🌍 Intervia Tourism
+ 🌍 Intervia Tourism
 
-**Intervia Tourism** is a fully responsive and user-friendly tourism website built using **HTML**, **CSS**, and **Font Awesome**. It showcases travel destinations, hotels, restaurants, and parks with an elegant layout, modern design, and interactive navigation.
+Global Trekker-Tourism is a fully responsive and user-friendly tourism website built using HTML, CSS, and Font Awesome. It showcases travel destinations, hotels, restaurants, and parks with an elegant layout, modern design, and interactive navigation.
 <img width="1920" height="989" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/e5201cb7-0af6-488e-b471-32da95f7ef53" />
 <img width="1920" height="992" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/d13d93bf-f2d1-4fe3-9fb7-143eaf8dc9ff" />
 
 ---
 
-## 🚀 Project Features
+ 🚀 Project Features
 
-- 🔗 **Navigation Bar** for exploring various places
+- 🔗 Navigation Bar for exploring various places
 - <img width="1920" height="1005" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/2523a3c3-c321-4228-a55f-a519a25011fa" />
 
-- 🖼️ **Scrollable Image Gallery** to display destinations
+- 🖼️ Scrollable Image Gallery to display destinations
 - <img width="1920" height="1002" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/1e29a52c-5744-4d8f-b205-e871f3209dda" />
 
-- 📞 Interactive pages: **Contact**, **Call Us**, and **Login**
+- 📞 Interactive pages: Contact, Call Us, and Login
 - <img width="1920" height="1002" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/e29a1ec4-9409-4c56-ab5f-d3e209a0ea82" />
 
-- 📱 Fully **responsive design** for mobile, tablet, and desktop
-- 🎨 Designed using **HTML5**, **CSS3**, and **Font Awesome icons**
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🎨 Designed using HTML5, CSS3, and Font Awesome icons
 
 ---
 
@@ -42,7 +42,7 @@ Edit
 
 ---
 
-## 💡 How It Works
+ 💡 How It Works
 
 - Visitors can browse destinations and services through a dropdown menu.
 - A smooth scrolling image section gives a visual feel of the places.
@@ -51,7 +51,7 @@ Edit
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 - **Frontend**: HTML5, CSS3
 - **Icons**: Font Awesome (CDN integration)
@@ -59,7 +59,7 @@ Edit
 
 ---
 
-## 📸 Screenshots
+ 📸 Screenshots
 
 > *(Add screenshots of your homepage, gallery, and dropdown here to enhance visual appeal)*
 <img width="1920" height="1005" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/dceb44c2-f62a-40ee-b8ba-03184d23cbe6" />
@@ -70,7 +70,7 @@ Edit
 
 ---
 
-## 📬 Contact
+ 📬 Contact
 
 For queries or feedback, reach out at:  
 📧 contact@tourismdemo.com  
@@ -78,7 +78,7 @@ For queries or feedback, reach out at:
 
 ---
 
-## 📄 License
+ 📄 License
 
 This project is for learning and personal use. Free to use with credit.  
 © 2025 Intervia Tourism. All rights reserved.
