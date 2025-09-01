@@ -3,20 +3,24 @@
 Global Trekker-Tourism is a fully responsive and user-friendly tourism website built using HTML, CSS, and Font Awesome. It showcases travel destinations, hotels, restaurants, and parks with an elegant layout, modern design, and interactive navigation.
 <img width="1908" height="933" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/58a5b292-c112-4fd9-a991-fe141de00ebf" />
 
-<img width="1920" height="992" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/d13d93bf-f2d1-4fe3-9fb7-143eaf8dc9ff" />
+<img width="1915" height="935" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/908ba5f9-9aa3-446f-bb2a-43a17136e276" />
+
 
 ---
 
  🚀 Project Features
 
 - 🔗 Navigation Bar for exploring various places
-- <img width="1920" height="1005" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/2523a3c3-c321-4228-a55f-a519a25011fa" />
+- <img width="1903" height="938" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/ed93e289-cf5e-47df-adea-ed91bff84651" />
+
 
 - 🖼️ Scrollable Image Gallery to display destinations
-- <img width="1920" height="1002" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/1e29a52c-5744-4d8f-b205-e871f3209dda" />
+- <img width="1898" height="927" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/ebe49b00-05b3-40a9-9694-2291b39f94ab" />
+
 
 - 📞 Interactive pages: Contact, Call Us, and Login
-- <img width="1920" height="1002" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/e29a1ec4-9409-4c56-ab5f-d3e209a0ea82" />
+- <img width="1920" height="933" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/62ed7068-0f8a-40e5-8c4c-5cfb2e171e12" />
+
 
 - 📱 Fully responsive design for mobile, tablet, and desktop
 - 🎨 Designed using HTML5, CSS3, and Font Awesome icons
@@ -63,10 +67,14 @@ Edit
  📸 Screenshots
 
 > *(Add screenshots of your homepage, gallery, and dropdown here to enhance visual appeal)*
-<img width="1920" height="1005" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/dceb44c2-f62a-40ee-b8ba-03184d23cbe6" />
-<img width="1920" height="992" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/b1049451-39b3-46c3-93ad-784c985b96ab" />
-<img width="1920" height="999" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/c336fc2f-398b-478f-90bf-1c57700bb063" />
-<img width="1920" height="997" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9c83a487-8444-4e02-a6c3-de2a1570fe41" />
+<img width="1920" height="934" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/e5278285-f7bc-4ac3-a6fe-49447df4bdb6" />
+
+<img width="1898" height="929" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/158e3dde-d952-41ad-aacb-2d0ad3c02341" />
+
+<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/0b40dadd-2f21-4d94-a2a5-c127ab58606b" />
+
+<img width="1902" height="936" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/42c856c3-47f9-43b7-aea2-6afaa79d3747" />
+
 <img width="1920" height="986" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/9d4ad09d-332b-44b4-b0c7-de109c5b4acd" />
 
 ---
