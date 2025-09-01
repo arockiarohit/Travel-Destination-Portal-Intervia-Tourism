@@ -1,4 +1,4 @@
- 🌍 Intervia Tourism
+ 🌍 Global Trekker
 
 Global Trekker-Tourism is a fully responsive and user-friendly tourism website built using HTML, CSS, and Font Awesome. It showcases travel destinations, hotels, restaurants, and parks with an elegant layout, modern design, and interactive navigation.
 <img width="1908" height="933" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/58a5b292-c112-4fd9-a991-fe141de00ebf" />
