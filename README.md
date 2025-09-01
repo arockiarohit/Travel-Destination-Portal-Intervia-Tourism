@@ -11,7 +11,8 @@ Global Trekker-Tourism is a fully responsive and user-friendly tourism website b
  🚀 Project Features
 
 - 🔗 Navigation Bar for exploring various places
-- <img width="1903" height="938" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/ed93e289-cf5e-47df-adea-ed91bff84651" />
+- <img width="1903" height="938" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/9708d0bb-131a-4e0e-88c7-1a4d5c72a4fb" />
+
 
 
 - 🖼️ Scrollable Image Gallery to display destinations
